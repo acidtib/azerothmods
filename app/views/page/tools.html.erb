@@ -1,0 +1,27 @@
+<div class="row mt-4">
+  <div class="col-12">
+    <h1>Tools</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Repo</th>
+          <th>Mod type</th>
+          <th colspan="1"></th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <% @mods.each do |mod| %>
+          <tr>
+            <td><%= mod.name %></td>
+            <td><%= mod.repo %></td>
+            <td><%= mod.mod_type %></td>
+            <td><%= link_to 'Show', view_mod_path(mod.slug) %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+</div>

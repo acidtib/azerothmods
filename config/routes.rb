@@ -2,6 +2,9 @@ Rails.application.routes.draw do
 
   get '/mods/:slug', to: 'mods#show', as: 'view_mod'
 
+  get '/tools', to: 'page#tools', as: 'tools'
+  get '/lua-scripts', to: 'page#lua', as: 'lua_scripts'
+
   root to: 'page#home'
 
   require 'sidekiq/web'

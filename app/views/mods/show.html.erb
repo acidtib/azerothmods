@@ -1,19 +1,31 @@
-<p id="notice"><%= notice %></p>
+<div class="row mt-4">
+  <div class="col-12">
+    <h1><%= @mod.name %></h1>
+    <p>by <%= link_to @mod.author, "https://github.com/#{@mod.author}", target: "_blank" %></p>
+    <hr class="featurette-divider">
+  </div>
 
-<p>
-  <strong>Name:</strong>
-  <%= @mod.name %>
-</p>
+  <div class="col-8 readme">
+    <div class="markdown">
+      <%= markdown(Base64.decode64(@mod.readme.content)).html_safe %>
+    </div>
+  </div>
 
-<p>
-  <strong>Repo:</strong>
-  <%= @mod.repo %>
-</p>
-
-<p>
-  <strong>Mod type:</strong>
-  <%= @mod.mod_type %>
-</p>
-
-
-<%= markdown(Base64.decode64(@mod.readme.content)).html_safe %>
+  <div class="col-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Repository Details</h5>
+        <ul class="list-group">
+          <li class="list-group-item"><i class="fab fa-github"></i> Code Base: <span class="float-right"> <%= link_to "Github", @mod.repo, target: "_blank" %> <i class="far fa-external-link"></i></span></li>
+          <li class="list-group-item"><i class="far fa-user"></i> Author: <span class="float-right"> <%= link_to @mod.author, "https://github.com/#{@mod.author}", target: "_blank" %></span></li>
+          <li class="list-group-item"><i class="far fa-star"></i> Stars: <span class="float-right"><%= @mod.stars %></span></li>
+          <li class="list-group-item"><i class="fas fa-code-branch"></i> Forks: <span class="float-right"><%= @mod.forks %></span></li>
+          <li class="list-group-item"><i class="far fa-eye"></i> Watchers: <span class="float-right"><%= @mod.watchers %></span></li>
+          <li class="list-group-item"><i class="far fa-object-ungroup"></i> Module Type: <span class="float-right"><%= @mod.mod_type %></span></li>
+          <li class="list-group-item"><i class="far fa-clock"></i> Created: <span class="float-right"><%= time_ago_in_words(@mod.repo_created_at) %></span></li>
+          <li class="list-group-item"><i class="far fa-clock"></i> Last Update: <span class="float-right"><%= time_ago_in_words(@mod.repo_updated_at) %></span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
