@@ -123,5 +123,30 @@
     "name": "noderouter", 
     "repo": "https://github.com/azerothcore/noderouter", 
     "mod_type": "tool"
+  },
+  {
+    "name": "lua-account-wide-mount", 
+    "repo": "https://github.com/iThorgrim-Hub/lua-account-wide-mount", 
+    "mod_type": "lua-script"
+  },
+  {
+    "name": "lua-aio-modrate-exp", 
+    "repo": "https://github.com/azerothcore/lua-aio-modrate-exp", 
+    "mod_type": "lua-script"
+  },
+  {
+    "name": "lua-command-plus", 
+    "repo": "https://github.com/iThorgrim-Hub/lua-command-plus", 
+    "mod_type": "lua-script"
+  },
+  {
+    "name": "lua-parangon", 
+    "repo": "https://github.com/iThorgrim-Hub/lua-parangon", 
+    "mod_type": "lua-script"
+  },
+  {
+    "name": "lua-autolearn", 
+    "repo": "https://github.com/iThorgrim-Hub/lua-autolearn", 
+    "mod_type": "lua-script"
   }
 ]
