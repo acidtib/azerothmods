@@ -10,21 +10,21 @@
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    
+
     <%= javascript_include_tag 'application' %>
   </head>
 
   <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">AzerothMods</a>
+      <%= link_to "AzerothMods", root_url, class: "navbar-brand" %>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
-        <form class="form-inline mt-2 mt-md-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+        <%= form_tag search_path, :method => :get, :class => "form-inline mt-2 mt-md-0" do %>
+          <input style="width: 312px;" class="form-control mr-sm-2" type="text" placeholder="<%= params["q"] || "Search by Module/Tool name.." %>" aria-label="Search" name="q">
+          <%= submit_tag "Search", class: "btn btn-outline-success my-2 my-sm-0" %>
+        <% end %>
 
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
