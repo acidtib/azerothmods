@@ -1,24 +1,12 @@
 <div class="row mt-4">
-  <div class="col-8">
+  <div class="col-12">
     <h1>Search</h1>
+    <hr class="featurette-divider">
+  </div>
 
+  <div class="col-8">
     <% @mods.each do |mod| %>
-      <div class="card mb-3">
-        <div class="row no-gutters">
-          <div class="col-2">
-            <%= link_to view_mod_path(mod.slug) do %>
-              <img src="https://raw.githubusercontent.com/azerothcore/mod-transmog/master/icon.png" class="card-img" alt="<%= mod.name %>">
-            <% end %>
-          </div>
-          <div class="col-10">
-            <div class="card-body pt-1 pb-1">
-              <h5 class="card-title mb-1"><%= link_to mod.name, view_mod_path(mod.slug) %></h5>
-              <p class="card-text mb-0"><%= mod.description %></p>
-              <p class="card-text mb-0"><small class="text-muted">Last updated <%= time_ago_in_words(mod.repo_updated_at) %> ago</small></p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <%= render partial: "cards", locals: { mod: mod } %>
     <% end %>
 
     <%= paginate @mods %>

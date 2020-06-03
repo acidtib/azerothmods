@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_06_03_061016) do
+ActiveRecord::Schema.define(version: 2020_06_03_194705) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -29,6 +29,7 @@ ActiveRecord::Schema.define(version: 2020_06_03_061016) do
     t.datetime "repo_updated_at"
     t.datetime "repo_created_at"
     t.string "slug"
+    t.string "author_avatar"
   end
 
   create_table "readmes", force: :cascade do |t|

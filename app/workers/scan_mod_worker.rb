@@ -11,6 +11,7 @@ class ScanModWorker
 
     mod.update(
       author: repoData["owner"]["login"],
+      author_avatar: repoData["owner"]["avatar_url"],
       description: repoData["description"],
       watchers: repoData["watchers_count"],
       stars: repoData["stargazers_count"],

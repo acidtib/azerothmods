@@ -2,7 +2,7 @@ run:
 	docker-compose up --build
 
 docker.build:
-	docker build -t azeroth-mods/app_service:latest .
+	docker build -t azerothmods/app_service:latest .
 
 docker.db.setup:
 	docker-compose run app rake db:setup

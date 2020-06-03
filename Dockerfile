@@ -4,7 +4,7 @@ ENV BUNDLER_VERSION=2.1.4
 ENV APP_HOME /usr/src/app
 
 RUN apt-get update && apt-get install -y build-essential \
-    curl nodejs libpq-dev libxml2-dev libxslt1-dev
+    curl nodejs libpq-dev libxml2-dev libxslt1-dev graphviz
 
 RUN mkdir -p $APP_HOME
 WORKDIR $APP_HOME
