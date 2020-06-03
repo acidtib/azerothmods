@@ -27,13 +27,13 @@
         <% end %>
 
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
+          <li class="nav-item <%= cp(root_url) %>">
             <%= link_to "Modules", root_url, class: "nav-link" %>
           </li>
-          <li class="nav-item">
+          <li class="nav-item <%= cp(tools_path) %>">
             <%= link_to "Tools", tools_path, class: "nav-link" %>
           </li>
-          <li class="nav-item">
+          <li class="nav-item <%= cp(lua_scripts_path) %>">
             <%= link_to "Lua Scripts", lua_scripts_path, class: "nav-link" %>
           </li>
         </ul>
