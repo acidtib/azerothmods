@@ -1,11 +1,21 @@
 <div class="row mb-3">
   <div class="col-12">
 
-    <span class="current-order"><%= params["order"] %></span>
+    <div class="dropdown float-right per-page ml-3">
+      <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="per-pageMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Per Page: <%= params["per"] %>
+      </a>
+      
+      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="per-pageMenu">
+        <a class="dropdown-item" href="10">10</a>
+        <a class="dropdown-item" href="20">20</a>
+        <a class="dropdown-item" href="100">100</a>
+      </div>
+    </div>
 
     <div class="dropdown float-right sort-by">
       <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Sort by:
+        Sort by: <%= sort_by(params["order"]) %>
       </a>
       
       <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
@@ -14,5 +24,6 @@
         <a class="dropdown-item" href="forks">Popularity</a>
       </div>
     </div>
+
   </div>
 </div>

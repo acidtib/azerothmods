@@ -5,7 +5,7 @@
   </div>
 
   <div class="col-md-8 mb-4">
-    <%= render partial: "order_by" %>
+    <%= render partial: "filters" %>
 
     <% @mods.each do |mod| %>
       <%= render partial: "cards", locals: { mod: mod } %>

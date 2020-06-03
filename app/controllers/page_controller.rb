@@ -3,6 +3,10 @@ class PageController < ApplicationController
     @mods = Mod.where(mod_type: "module").page(params[:page])
     @pops = @mods.order("stars DESC").limit(6)
 
+    if params["per"]
+      @mods = @mods.per(params["per"])
+    end
+
     if params["order"]
       @mods = @mods.order("#{params["order"]} DESC")
     else
@@ -14,6 +18,10 @@ class PageController < ApplicationController
     @mods = Mod.where(mod_type: "tool").page(params[:page])
     @pops = @mods.order("stars DESC").limit(6)
 
+    if params["per"]
+      @mods = @mods.per(params["per"])
+    end
+
     if params["order"]
       @mods = @mods.order("#{params["order"]} DESC")
     else
@@ -24,6 +32,10 @@ class PageController < ApplicationController
   def lua
     @mods = Mod.where(mod_type: "lua-script").page(params[:page])
     @pops = @mods.order("stars DESC").limit(6)
+
+    if params["per"]
+      @mods = @mods.per(params["per"])
+    end
     
     if params["order"]
       @mods = @mods.order("#{params["order"]} DESC")
