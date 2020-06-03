@@ -6,10 +6,10 @@
       <% end %>
     </div>
     <div class="col-10">
-      <div class="card-body pt-1 pb-1">
+      <div class="card-body pt-2 pb-1">
         <h5 class="card-title mb-1"><%= link_to mod.name, view_mod_path(mod.slug) %></h5>
         <p class="card-text mb-0"><%= mod.description %></p>
-        <p class="card-text mb-0"><small class="text-muted mr-2"><%= mod.forks %> Forks</small> <small class="text-muted  mr-2">Updated <%= time_ago_in_words(mod.repo_updated_at) %> ago</small> <small class="text-muted">Created <%= time_ago_in_words(mod.repo_created_at) %> ago</small></p>
+        <p class="card-text mb-0"><small class="text-muted mr-2"><%= mod.forks %> Forks</small> <small class="text-muted mr-2">Updated <%= time_ago_in_words(mod.repo_updated_at).gsub("about", "").gsub("over", "") %> ago</small> <small class="text-muted">Created <%= time_ago_in_words(mod.repo_created_at).gsub("about", "").gsub("over", "") %> ago</small></p>
       </div>
     </div>
   </div>

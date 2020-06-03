@@ -15,6 +15,18 @@
   </div>
 
   <div class="col-4">
-    s
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Popular Modules</h5>
+        <ul class="list-group">
+          <% @pops.each do |pop| %>
+            <li class="list-group-item">
+              <h6><%= link_to pop.name, view_mod_path(pop.slug) %></h6>
+              <p><small class="text-muted mr-2"><%= pop.stars %> Stars</small> <small class="text-muted">Updated <%= time_ago_in_words(pop.repo_updated_at).gsub("about", "").gsub("over", "") %> ago</small></p>
+            </li>
+          <% end %>
+        </ul>
+      </div>
+    </div>
   </div>
 </div>
