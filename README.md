@@ -1,24 +1,23 @@
-# README
+## azerothmods
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+### Get Started
 
-* Ruby version
+Copy the configuration file `.env-example` file into `.env` and update it.
 
-* System dependencies
+```
+$ cp .env-example .env
+```
 
-* Configuration
+Build and deploy app with Docker
 
-* Database creation
+```
+$ docker-compose up --build
+```
 
-* Database initialization
+Setup local database:
+```
+$ docker-compose run app rake db:setup
+```
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Now you can load [http://localhost:3000](http://localhost:3000) to visit the local site.
