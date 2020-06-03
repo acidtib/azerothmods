@@ -18,5 +18,110 @@
     "name": "mod-premium", 
     "repo": "https://github.com/azerothcore/mod-premium", 
     "mod_type": "module"
+  },
+  {
+    "name": "API", 
+    "repo": "https://github.com/azerothcore/API", 
+    "mod_type": "tool"
+  },
+  {
+    "name": "playermap", 
+    "repo": "https://github.com/azerothcore/playermap", 
+    "mod_type": "tool"
+  },
+  {
+    "name": "tool-tc-migration", 
+    "repo": "https://github.com/azerothcore/tool-tc-migration", 
+    "mod_type": "tool"
+  },
+  {
+    "name": "democlient-app", 
+    "repo": "https://github.com/azerothcore/democlient-app", 
+    "mod_type": "tool"
+  },
+  {
+    "name": "server-status", 
+    "repo": "https://github.com/azerothcore/server-status", 
+    "mod_type": "tool"
+  },
+  {
+    "name": "WoWSimpleRegistration", 
+    "repo": "https://github.com/azerothcore/WoWSimpleRegistration", 
+    "mod_type": "tool"
+  },
+  {
+    "name": "elegram-automated-db-backup", 
+    "repo": "https://github.com/azerothcore/telegram-automated-db-backup", 
+    "mod_type": "tool"
+  },
+  {
+    "name": "arena-stats", 
+    "repo": "https://github.com/azerothcore/arena-stats", 
+    "mod_type": "tool"
+  },
+  {
+    "name": "PvPstats", 
+    "repo": "https://github.com/azerothcore/PvPstats", 
+    "mod_type": "tool"
+  },
+  {
+    "name": "aowow", 
+    "repo": "https://github.com/azerothcore/aowow", 
+    "mod_type": "tool"
+  },
+  {
+    "name": "GMGenie", 
+    "repo": "https://github.com/azerothcore/GMGenie", 
+    "mod_type": "tool"
+  },
+  {
+    "name": "web-character-migration-tool", 
+    "repo": "https://github.com/azerothcore/web-character-migration-tool", 
+    "mod_type": "tool"
+  },
+  {
+    "name": "AzerothCore-Module-Installer", 
+    "repo": "https://github.com/azerothcore/AzerothCore-Module-Installer", 
+    "mod_type": "tool"
+  },
+  {
+    "name": "WoWServerWebTerminal", 
+    "repo": "https://github.com/azerothcore/WoWServerWebTerminal", 
+    "mod_type": "tool"
+  },
+  {
+    "name": "wow-telegram", 
+    "repo": "https://github.com/azerothcore/wow-telegram", 
+    "mod_type": "tool"
+  },
+  {
+    "name": "acore-client", 
+    "repo": "https://github.com/azerothcore/acore-client", 
+    "mod_type": "tool"
+  },
+  {
+    "name": "mysql-tools", 
+    "repo": "https://github.com/azerothcore/mysql-tools", 
+    "mod_type": "tool"
+  },
+  {
+    "name": "acore-cms", 
+    "repo": "https://github.com/azerothcore/acore-cms", 
+    "mod_type": "tool"
+  },
+  {
+    "name": "acore-node-server", 
+    "repo": "https://github.com/azerothcore/acore-node-server", 
+    "mod_type": "tool"
+  },
+  {
+    "name": "acore-pwa", 
+    "repo": "https://github.com/azerothcore/acore-pwa", 
+    "mod_type": "tool"
+  },
+  {
+    "name": "noderouter", 
+    "repo": "https://github.com/azerothcore/noderouter", 
+    "mod_type": "tool"
   }
 ]
