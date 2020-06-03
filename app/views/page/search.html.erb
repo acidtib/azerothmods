@@ -4,12 +4,11 @@
     <hr class="featurette-divider">
   </div>
 
-  <div class="col-8">
+  <div class="col-md-8 mb-4">
     <% @mods.each do |mod| %>
       <%= render partial: "cards", locals: { mod: mod } %>
     <% end %>
 
     <%= paginate @mods %>
-
   </div>
 </div>
