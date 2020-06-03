@@ -5,7 +5,7 @@ class CheckModsWorker
     mods = Mod.all
 
     mods.each do |mod|
-      ScanModWorker.perform_async(mod.id)
+      ScanModWorker.perform_in(30.second, mod.id)
     end
   end
 end

@@ -19,6 +19,6 @@ class ScanModWorker
       repo_created_at: repoData["created_at"]
     )
 
-    ScanReadmeWorker.perform_async(mod.id)
+    ScanReadmeWorker.perform_in(10.second, mod.id)
   end
 end
