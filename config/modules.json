@@ -293,5 +293,145 @@
     "name": "mod-alpha-rewards", 
     "repo": "https://github.com/azerothcore/mod-alpha-rewards", 
     "mod_type": "module"
+  },
+  {
+    "name": "mod-npc-beastmaster", 
+    "repo": "https://github.com/azerothcore/mod-npc-beastmaster", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-individual-xp", 
+    "repo": "https://github.com/azerothcore/mod-individual-xp", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-money-for-kills", 
+    "repo": "https://github.com/azerothcore/mod-money-for-kills", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-fireworks-on-level", 
+    "repo": "https://github.com/azerothcore/mod-fireworks-on-level", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-account-achievements", 
+    "repo": "https://github.com/azerothcore/mod-account-achievements", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-npc-talent-template", 
+    "repo": "https://github.com/azerothcore/mod-npc-talent-template", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-npc-codebox", 
+    "repo": "https://github.com/azerothcore/mod-npc-codebox", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-phased-duels", 
+    "repo": "https://github.com/azerothcore/mod-phased-duels", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-weapon-visual", 
+    "repo": "https://github.com/azerothcore/mod-weapon-visual", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-boss-announcer", 
+    "repo": "https://github.com/azerothcore/mod-boss-announcer", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-instance-reset", 
+    "repo": "https://github.com/azerothcore/mod-instance-reset", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-premium-lib", 
+    "repo": "https://github.com/azerothcore/mod-premium-lib", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-antifarming", 
+    "repo": "https://github.com/azerothcore/mod-antifarming", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-buff-command", 
+    "repo": "https://github.com/azerothcore/mod-buff-command", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-npc-gambler", 
+    "repo": "https://github.com/azerothcore/mod-npc-gambler", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-npc-all-mounts", 
+    "repo": "https://github.com/azerothcore/mod-npc-all-mounts", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-better-item-reloading", 
+    "repo": "https://github.com/azerothcore/mod-better-item-reloading", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-learn-highest-talent", 
+    "repo": "https://github.com/azerothcore/mod-learn-highest-talent", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-emblem-transfer", 
+    "repo": "https://github.com/azerothcore/mod-emblem-transfer", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-world-chat", 
+    "repo": "https://github.com/azerothcore/mod-world-chat", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-keep-out", 
+    "repo": "https://github.com/azerothcore/mod-keep-out", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-multi-client-check", 
+    "repo": "https://github.com/azerothcore/mod-multi-client-check", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-npc-services", 
+    "repo": "https://github.com/azerothcore/mod-npc-services", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-item-level-up", 
+    "repo": "https://github.com/azerothcore/mod-item-level-up", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-reward-shop", 
+    "repo": "https://github.com/azerothcore/mod-reward-shop", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-notify-muted", 
+    "repo": "https://github.com/azerothcore/mod-notify-muted", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-quick-teleport", 
+    "repo": "https://github.com/azerothcore/mod-quick-teleport", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-who-logged", 
+    "repo": "https://github.com/azerothcore/mod-who-logged", 
+    "mod_type": "module"
   }
 ]
