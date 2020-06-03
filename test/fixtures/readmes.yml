@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  mod: one
+  content: MyText
+  url: MyString
+  encoding: MyString
+
+two:
+  mod: two
+  content: MyText
+  url: MyString
+  encoding: MyString

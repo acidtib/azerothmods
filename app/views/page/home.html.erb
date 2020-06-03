@@ -1,0 +1,26 @@
+<h1>Page#home</h1>
+<p>Find me in app/views/page/home.html.erb</p>
+
+<h1>Mods</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Repo</th>
+      <th>Mod type</th>
+      <th colspan="1"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @mods.each do |mod| %>
+      <tr>
+        <td><%= mod.name %></td>
+        <td><%= mod.repo %></td>
+        <td><%= mod.mod_type %></td>
+        <td><%= link_to 'Show', view_mod_path(mod.slug) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

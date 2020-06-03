@@ -1,0 +1,4 @@
+check_mods:
+  cron: "*/5 * * * *"
+  class: "CheckModsWorker"
+  queue: default

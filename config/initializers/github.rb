@@ -1,0 +1,1 @@
+GITHUB = Github::Client.new

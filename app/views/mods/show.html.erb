@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @mod.name %>
+</p>
+
+<p>
+  <strong>Repo:</strong>
+  <%= @mod.repo %>
+</p>
+
+<p>
+  <strong>Mod type:</strong>
+  <%= @mod.mod_type %>
+</p>
+
+
+<%= markdown(Base64.decode64(@mod.readme.content)).html_safe %>

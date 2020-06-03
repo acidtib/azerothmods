@@ -1,0 +1,22 @@
+[
+  {
+    "name": "mod-transmog", 
+    "repo": "https://github.com/azerothcore/mod-transmog", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-eluna-lua-engine", 
+    "repo": "https://github.com/azerothcore/mod-eluna-lua-engine", 
+    "mod_type": "module"
+  },
+  {
+    "name": "Keira3", 
+    "repo": "https://github.com/azerothcore/Keira3", 
+    "mod_type": "tool"
+  },
+  {
+    "name": "mod-premium", 
+    "repo": "https://github.com/azerothcore/mod-premium", 
+    "mod_type": "module"
+  }
+]
