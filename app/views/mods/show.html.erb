@@ -21,7 +21,7 @@
           <li class="list-group-item"><i class="far fa-star"></i> Stars: <span class="float-right"><%= @mod.stars %></span></li>
           <li class="list-group-item"><i class="fas fa-code-branch"></i> Forks: <span class="float-right"><%= @mod.forks %></span></li>
           <li class="list-group-item"><i class="far fa-eye"></i> Watchers: <span class="float-right"><%= @mod.watchers %></span></li>
-          <li class="list-group-item"><i class="far fa-object-ungroup"></i> Module Type: <span class="float-right"><%= @mod.mod_type %></span></li>
+          <li class="list-group-item"><i class="far fa-object-ungroup"></i> Type: <span class="float-right"><%= @mod.mod_type %></span></li>
           <li class="list-group-item"><i class="far fa-clock"></i> Created: <span class="float-right"><%= time_ago_in_words(@mod.repo_created_at) %></span></li>
           <li class="list-group-item"><i class="far fa-clock"></i> Last Update: <span class="float-right"><%= time_ago_in_words(@mod.repo_updated_at) %></span></li>
         </ul>

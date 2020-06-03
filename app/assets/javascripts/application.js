@@ -15,3 +15,15 @@
 //= require popper
 //= require activestorage
 //= require_tree .
+
+
+$(function() {
+  $(".sort-by .dropdown-item").click(function(event) {
+    event.preventDefault()
+
+    var order = $(this).attr('href')
+    var url = window.location.protocol+"//"+window.location.host+""+window.location.pathname+"?order="+order
+
+    window.location = url
+  });
+});

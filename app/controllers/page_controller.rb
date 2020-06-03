@@ -1,14 +1,29 @@
 class PageController < ApplicationController
   def home
-    @mods = Mod.where(mod_type: "module").order('repo_updated_at DESC').page(params[:page])
+    @mods = Mod.where(mod_type: "module").page(params[:page])
+    if params["order"]
+      @mods = @mods.order("#{params["order"]} DESC")
+    else
+      @mods = @mods.order('repo_updated_at DESC')
+    end
   end
 
   def tools
-    @mods = Mod.where(mod_type: "tool").order('repo_updated_at DESC').page(params[:page])
+    @mods = Mod.where(mod_type: "tool").page(params[:page])
+    if params["order"]
+      @mods = @mods.order("#{params["order"]} DESC")
+    else
+      @mods = @mods.order('repo_updated_at DESC')
+    end
   end
 
   def lua
-    @mods = Mod.where(mod_type: "lua-script").order('repo_updated_at DESC').page(params[:page])
+    @mods = Mod.where(mod_type: "lua-script").page(params[:page])
+    if params["order"]
+      @mods = @mods.order("#{params["order"]} DESC")
+    else
+      @mods = @mods.order('repo_updated_at DESC')
+    end
   end
 
   def search
