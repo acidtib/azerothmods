@@ -148,5 +148,150 @@
     "name": "lua-autolearn", 
     "repo": "https://github.com/iThorgrim-Hub/lua-autolearn", 
     "mod_type": "lua-script"
+  },
+  {
+    "name": "mod-autobalance", 
+    "repo": "https://github.com/azerothcore/mod-autobalance", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-bg-slaveryvalley", 
+    "repo": "https://github.com/azerothcore/mod-bg-slaveryvalley", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-duel-reset", 
+    "repo": "https://github.com/azerothcore/mod-duel-reset", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-arac", 
+    "repo": "https://github.com/azerothcore/mod-arac", 
+    "mod_type": "module"
+  },
+  {
+    "name": "skeleton-module", 
+    "repo": "https://github.com/azerothcore/skeleton-module", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-random-enchants", 
+    "repo": "https://github.com/azerothcore/mod-random-enchants", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-anticheat", 
+    "repo": "https://github.com/azerothcore/mod-anticheat", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-bg-twinpeaks", 
+    "repo": "https://github.com/azerothcore/mod-bg-twinpeaks", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-1v1-arena", 
+    "repo": "https://github.com/azerothcore/mod-1v1-arena", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-cfbg", 
+    "repo": "https://github.com/azerothcore/mod-cfbg", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-morphsummon", 
+    "repo": "https://github.com/azerothcore/mod-morphsummon", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-reward-played-time", 
+    "repo": "https://github.com/azerothcore/mod-reward-played-time", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-ah-bot", 
+    "repo": "https://github.com/azerothcore/mod-ah-bot", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-character-tools", 
+    "repo": "https://github.com/azerothcore/mod-character-tools", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-bg-battle-for-gilneas", 
+    "repo": "https://github.com/azerothcore/mod-bg-battle-for-gilneas", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-arena-tigerspeak", 
+    "repo": "https://github.com/azerothcore/mod-arena-tigerspeak", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-guild-zone-system", 
+    "repo": "https://github.com/azerothcore/mod-guild-zone-system", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-learn-spells", 
+    "repo": "https://github.com/azerothcore/mod-learn-spells", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-weekend-xp", 
+    "repo": "https://github.com/azerothcore/mod-weekend-xp", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-congrats-on-level", 
+    "repo": "https://github.com/azerothcore/mod-congrats-on-level", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-npc-buffer", 
+    "repo": "https://github.com/azerothcore/mod-npc-buffer", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-solocraft", 
+    "repo": "https://github.com/azerothcore/mod-solocraft", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-pvpscript", 
+    "repo": "https://github.com/azerothcore/mod-pvpscript", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-starter-guild", 
+    "repo": "https://github.com/azerothcore/mod-starter-guild", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-arena-tolviron", 
+    "repo": "https://github.com/azerothcore/mod-arena-tolviron", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-npc-enchanter", 
+    "repo": "https://github.com/azerothcore/mod-npc-enchanter", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-new-character-perks", 
+    "repo": "https://github.com/azerothcore/mod-new-character-perks", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-pvp-titles", 
+    "repo": "https://github.com/azerothcore/mod-pvp-titles", 
+    "mod_type": "module"
+  },
+  {
+    "name": "mod-alpha-rewards", 
+    "repo": "https://github.com/azerothcore/mod-alpha-rewards", 
+    "mod_type": "module"
   }
 ]
