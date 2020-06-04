@@ -11,9 +11,4 @@ class ModsController < ApplicationController
     def set_mod
       @mod = Mod.find_by_slug(params[:slug])
     end
-
-    # Only allow a list of trusted parameters through.
-    def mod_params
-      params.require(:mod).permit(:name, :repo, :mod_type)
-    end
 end
