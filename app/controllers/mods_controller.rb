@@ -2,7 +2,6 @@ class ModsController < ApplicationController
   before_action :set_mod, only: [:show]
 
   # GET /mods/slug
-  # GET /mods/slug.json
   def show
   end
 

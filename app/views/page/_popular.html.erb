@@ -1,0 +1,29 @@
+<div class="card popular-mods">
+  <div class="card-body">
+    <h5 class="card-title">Popular Modules</h5>
+    
+      <ul class="list-group">
+        <% pops.each do |pop| %>
+          <li class="list-group-item">
+            <div class="row no-gutters">
+              <div class="col-2 pl-1">
+                <%= link_to view_mod_path(pop.slug) do %>
+                  <% if pop.mod_avatar %>
+                    <img src="<%= pop.mod_avatar %>" class="card-img" alt="<%= pop.name %>">
+                  <% else %>
+                    <img src="<%= pop.author_avatar %>" class="card-img" alt="<%= pop.name %>">
+                  <% end %>
+                <% end %>
+              </div>
+
+              <div class="col-10 pl-2">
+                <h6><%= link_to pop.name, view_mod_path(pop.slug) %></h6>
+                <p class="mb-0"><small class="text-muted mr-2"><%= pop.forks %> Forks</small> <small class="text-muted">Updated <%= time_ago_in_words(pop.repo_updated_at).gsub("about", "").gsub("over", "") %> ago</small></p>
+              </div>
+            </div>
+          </li>
+        <% end %>
+      </ul>
+
+  </div>
+</div>
