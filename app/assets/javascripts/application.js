@@ -40,6 +40,13 @@ $(function() {
     $("html, body").animate({ scrollTop: 0 }, "slow");
     return false;
   });
+
+  $(".filter-clear a").click(function() {
+    event.preventDefault()
+    
+    var url = window.location.protocol + "//" + window.location.host + window.location.pathname
+    window.location = url
+  });
 });
 
 function parseUrl(url) {

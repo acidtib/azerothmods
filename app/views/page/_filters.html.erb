@@ -1,8 +1,14 @@
 <div class="row mb-3">
   <div class="col-12">
 
+    <% if params["order"] || params["per"] %>
+      <div class="dropdown float-right filter-clear ml-3">
+        <a class="btn btn-warning" href="#" role="button" id="per-pageMenu" aria-haspopup="true" aria-expanded="false">Clear</a>
+      </div>
+    <% end %>
+
     <div class="dropdown float-right per-page ml-3">
-      <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="per-pageMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <a class="btn btn-info dropdown-toggle" href="#" role="button" id="per-pageMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Per Page: <%= params["per"] %>
       </a>
       
@@ -14,7 +20,7 @@
     </div>
 
     <div class="dropdown float-right sort-by">
-      <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <a class="btn btn-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Sort by: <%= sort_by(params["order"]) %>
       </a>
       
