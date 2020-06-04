@@ -2,3 +2,8 @@ check_mods:
   cron: "*/5 * * * *"
   class: "CheckModsWorker"
   queue: default
+
+import_modules:
+  cron: "*/5 * * * *"
+  class: "ImportModulesWorker"
+  queue: default

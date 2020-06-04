@@ -7,6 +7,12 @@ docker.build:
 docker.db.setup:
 	docker-compose run app rake db:setup
 
+docker.db.migrate:
+	docker-compose run app rake db:migrate
+
+docker.db.seed:
+	docker-compose run app rake db:seed
+
 docker.logs:
 	docker-compose logs --follow
 
