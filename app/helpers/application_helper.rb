@@ -9,7 +9,7 @@ module ApplicationHelper
       return "Date Created"
     when "repo_updated_at"
       return "Last Updated"
-    when "forks"
+    when "stars"
       return "Popularity"
     end
   end
