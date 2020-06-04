@@ -2,12 +2,14 @@
   {
     "name": "mod-transmog", 
     "repo": "https://github.com/azerothcore/mod-transmog", 
-    "mod_type": "module"
+    "mod_type": "module",
+    "mod_avatar": "https://raw.githubusercontent.com/azerothcore/mod-transmog/master/icon.png"
   },
   {
     "name": "mod-eluna-lua-engine", 
     "repo": "https://github.com/azerothcore/mod-eluna-lua-engine", 
-    "mod_type": "module"
+    "mod_type": "module",
+    "mod_avatar": "https://raw.githubusercontent.com/azerothcore/mod-eluna-lua-engine/master/icon.png"
   },
   {
     "name": "Keira3", 
@@ -27,7 +29,8 @@
   {
     "name": "playermap", 
     "repo": "https://github.com/azerothcore/playermap", 
-    "mod_type": "tool"
+    "mod_type": "tool",
+    "mod_avatar": "https://raw.githubusercontent.com/azerothcore/playermap/master/icon.png"
   },
   {
     "name": "tool-tc-migration", 
@@ -42,7 +45,8 @@
   {
     "name": "server-status", 
     "repo": "https://github.com/azerothcore/server-status", 
-    "mod_type": "tool"
+    "mod_type": "tool",
+    "mod_avatar": "https://raw.githubusercontent.com/azerothcore/server-status/master/icon.png"
   },
   {
     "name": "WoWSimpleRegistration", 
@@ -50,24 +54,28 @@
     "mod_type": "tool"
   },
   {
-    "name": "elegram-automated-db-backup", 
+    "name": "telegram-automated-db-backup", 
     "repo": "https://github.com/azerothcore/telegram-automated-db-backup", 
-    "mod_type": "tool"
+    "mod_type": "tool",
+    "mod_avatar": "https://raw.githubusercontent.com/azerothcore/telegram-automated-db-backup/master/icon.png"
   },
   {
     "name": "arena-stats", 
     "repo": "https://github.com/azerothcore/arena-stats", 
-    "mod_type": "tool"
+    "mod_type": "tool",
+    "mod_avatar": "https://raw.githubusercontent.com/azerothcore/arena-stats/master/icon.png"
   },
   {
     "name": "PvPstats", 
     "repo": "https://github.com/azerothcore/PvPstats", 
-    "mod_type": "tool"
+    "mod_type": "tool",
+    "mod_avatar": "https://raw.githubusercontent.com/azerothcore/PvPstats/master/icon.png"
   },
   {
     "name": "aowow", 
     "repo": "https://github.com/azerothcore/aowow", 
-    "mod_type": "tool"
+    "mod_type": "tool",
+    "mod_avatar": "https://raw.githubusercontent.com/azerothcore/aowow/master/icon.png"
   },
   {
     "name": "GMGenie", 
@@ -82,17 +90,20 @@
   {
     "name": "AzerothCore-Module-Installer", 
     "repo": "https://github.com/azerothcore/AzerothCore-Module-Installer", 
-    "mod_type": "tool"
+    "mod_type": "tool",
+    "mod_avatar": "https://raw.githubusercontent.com/azerothcore/AzerothCore-Module-Installer/master/icon.png"
   },
   {
     "name": "WoWServerWebTerminal", 
     "repo": "https://github.com/azerothcore/WoWServerWebTerminal", 
-    "mod_type": "tool"
+    "mod_type": "tool",
+    "mod_avatar": "https://raw.githubusercontent.com/azerothcore/WoWServerWebTerminal/master/icon.png"
   },
   {
     "name": "wow-telegram", 
     "repo": "https://github.com/azerothcore/wow-telegram", 
-    "mod_type": "tool"
+    "mod_type": "tool",
+    "mod_avatar": "https://raw.githubusercontent.com/azerothcore/wow-telegram/master/icon.png"
   },
   {
     "name": "acore-client", 
@@ -127,47 +138,56 @@
   {
     "name": "lua-account-wide-mount", 
     "repo": "https://github.com/iThorgrim-Hub/lua-account-wide-mount", 
-    "mod_type": "lua-script"
+    "mod_type": "lua-script",
+    "mod_avatar": "https://raw.githubusercontent.com/iThorgrim-Hub/lua-account-wide-mount/master/icon.png"
   },
   {
     "name": "lua-aio-modrate-exp", 
     "repo": "https://github.com/azerothcore/lua-aio-modrate-exp", 
-    "mod_type": "lua-script"
+    "mod_type": "lua-script",
+    "mod_avatar": "https://raw.githubusercontent.com/azerothcore/lua-aio-modrate-exp/master/icon.png"
   },
   {
     "name": "lua-command-plus", 
     "repo": "https://github.com/iThorgrim-Hub/lua-command-plus", 
-    "mod_type": "lua-script"
+    "mod_type": "lua-script",
+    "mod_avatar": "https://raw.githubusercontent.com/iThorgrim-Hub/lua-command-plus/master/icon.png"
   },
   {
     "name": "lua-parangon", 
     "repo": "https://github.com/iThorgrim-Hub/lua-parangon", 
-    "mod_type": "lua-script"
+    "mod_type": "lua-script",
+    "mod_avatar": "https://raw.githubusercontent.com/iThorgrim-Hub/lua-parangon/master/icon.png"
   },
   {
     "name": "lua-autolearn", 
     "repo": "https://github.com/iThorgrim-Hub/lua-autolearn", 
-    "mod_type": "lua-script"
+    "mod_type": "lua-script",
+    "mod_avatar": "https://raw.githubusercontent.com/iThorgrim-Hub/lua-autolearn/master/icon.png"
   },
   {
     "name": "mod-autobalance", 
     "repo": "https://github.com/azerothcore/mod-autobalance", 
-    "mod_type": "module"
+    "mod_type": "module",
+    "mod_avatar": "https://raw.githubusercontent.com/azerothcore/mod-autobalance/master/icon.png"
   },
   {
     "name": "mod-bg-slaveryvalley", 
     "repo": "https://github.com/azerothcore/mod-bg-slaveryvalley", 
-    "mod_type": "module"
+    "mod_type": "module",
+    "mod_avatar": "https://raw.githubusercontent.com/azerothcore/mod-bg-slaveryvalley/master/icon.png"
   },
   {
     "name": "mod-duel-reset", 
     "repo": "https://github.com/azerothcore/mod-duel-reset", 
-    "mod_type": "module"
+    "mod_type": "module",
+    "mod_avatar": "https://raw.githubusercontent.com/azerothcore/mod-duel-reset/master/icon.png"
   },
   {
     "name": "mod-arac", 
     "repo": "https://github.com/azerothcore/mod-arac", 
-    "mod_type": "module"
+    "mod_type": "module",
+    "mod_avatar": "https://raw.githubusercontent.com/azerothcore/mod-arac/master/icon.png"
   },
   {
     "name": "skeleton-module", 
@@ -182,17 +202,20 @@
   {
     "name": "mod-anticheat", 
     "repo": "https://github.com/azerothcore/mod-anticheat", 
-    "mod_type": "module"
+    "mod_type": "module",
+    "mod_avatar": "https://raw.githubusercontent.com/azerothcore/mod-anticheat/master/icon.png"
   },
   {
     "name": "mod-bg-twinpeaks", 
     "repo": "https://github.com/azerothcore/mod-bg-twinpeaks", 
-    "mod_type": "module"
+    "mod_type": "module",
+    "mod_avatar": "https://raw.githubusercontent.com/azerothcore/mod-bg-twinpeaks/master/icon.png"
   },
   {
     "name": "mod-1v1-arena", 
     "repo": "https://github.com/azerothcore/mod-1v1-arena", 
-    "mod_type": "module"
+    "mod_type": "module",
+    "mod_avatar": "https://raw.githubusercontent.com/azerothcore/mod-1v1-arena/master/icon.png"
   },
   {
     "name": "mod-cfbg", 
@@ -202,7 +225,8 @@
   {
     "name": "mod-morphsummon", 
     "repo": "https://github.com/azerothcore/mod-morphsummon", 
-    "mod_type": "module"
+    "mod_type": "module",
+    "mod_avatar": "https://raw.githubusercontent.com/azerothcore/mod-morphsummon/master/icon.png"
   },
   {
     "name": "mod-reward-played-time", 
@@ -222,17 +246,20 @@
   {
     "name": "mod-bg-battle-for-gilneas", 
     "repo": "https://github.com/azerothcore/mod-bg-battle-for-gilneas", 
-    "mod_type": "module"
+    "mod_type": "module",
+    "mod_avatar": "https://raw.githubusercontent.com/azerothcore/mod-bg-battle-for-gilneas/master/icon.png"
   },
   {
     "name": "mod-arena-tigerspeak", 
     "repo": "https://github.com/azerothcore/mod-arena-tigerspeak", 
-    "mod_type": "module"
+    "mod_type": "module",
+    "mod_avatar": "https://raw.githubusercontent.com/azerothcore/mod-arena-tigerspeak/master/icon.png"
   },
   {
     "name": "mod-guild-zone-system", 
     "repo": "https://github.com/azerothcore/mod-guild-zone-system", 
-    "mod_type": "module"
+    "mod_type": "module",
+    "mod_avatar": "https://raw.githubusercontent.com/azerothcore/mod-guild-zone-system/master/icon.png"
   },
   {
     "name": "mod-learn-spells", 
@@ -272,7 +299,8 @@
   {
     "name": "mod-arena-tolviron", 
     "repo": "https://github.com/azerothcore/mod-arena-tolviron", 
-    "mod_type": "module"
+    "mod_type": "module",
+    "mod_avatar": "https://raw.githubusercontent.com/azerothcore/mod-arena-tolviron/master/icon.png"
   },
   {
     "name": "mod-npc-enchanter", 
@@ -337,7 +365,8 @@
   {
     "name": "mod-weapon-visual", 
     "repo": "https://github.com/azerothcore/mod-weapon-visual", 
-    "mod_type": "module"
+    "mod_type": "module",
+    "mod_avatar": "https://raw.githubusercontent.com/azerothcore/mod-weapon-visual/master/icon.png"
   },
   {
     "name": "mod-boss-announcer", 
@@ -407,7 +436,8 @@
   {
     "name": "mod-npc-services", 
     "repo": "https://github.com/azerothcore/mod-npc-services", 
-    "mod_type": "module"
+    "mod_type": "module",
+    "mod_avatar": "https://raw.githubusercontent.com/azerothcore/mod-npc-services/master/icon.png"
   },
   {
     "name": "mod-item-level-up", 

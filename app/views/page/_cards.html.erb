@@ -2,7 +2,11 @@
   <div class="row no-gutters">
     <div class="col-2">
       <%= link_to view_mod_path(mod.slug) do %>
-        <img src="<%= mod.author_avatar %>" class="card-img" alt="<%= mod.name %>">
+        <% if mod.mod_avatar %>
+          <img src="<%= mod.mod_avatar %>" class="card-img" alt="<%= mod.name %>">
+        <% else %>
+          <img src="<%= mod.author_avatar %>" class="card-img" alt="<%= mod.name %>">
+        <% end %>
       <% end %>
     </div>
     <div class="col-10">
