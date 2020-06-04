@@ -1,7 +1,19 @@
 <div class="row mt-4">
   <div class="col-12">
-    <h1><%= @mod.name %></h1>
-    <p>by <%= link_to @mod.author, "https://github.com/#{@mod.author}", target: "_blank" %></p>
+    <div class="row">
+      <div class="col-md-2 mod-avatar-show">
+        <% if @mod.mod_avatar %>
+          <img src="<%= @mod.mod_avatar %>" class="card-img" alt="<%= @mod.name %>">
+        <% else %>
+          <img src="<%= @mod.author_avatar %>" class="card-img" alt="<%= @mod.name %>">
+        <% end %>
+      </div>
+      <div class="col-md-10">
+         <h1><%= @mod.name %></h1>
+          <p>by <%= link_to @mod.author, "https://github.com/#{@mod.author}", target: "_blank" %></p>
+      </div>
+    </div>
+
     <hr class="featurette-divider">
   </div>
 
